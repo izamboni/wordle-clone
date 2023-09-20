@@ -10,7 +10,7 @@ const WordOfTheDayLayout = ({ children }: { children: React.ReactNode }) => {
       <header className="border-b-2 rounded-lg h-12 flex items-center justify-center">
         <h1 className="font-bold text-lg">Wordle Clone</h1>
       </header>
-      <body>{children}</body>
+      <section>{children}</section>
     </>
   );
 };

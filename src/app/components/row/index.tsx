@@ -12,8 +12,6 @@ const Row: FC<RowProps> = ({ word, bgColors }) => {
 
   const handleEndOfTransition = (index: number) => {
     const aux = [...transitions];
-    console.log("index", index);
-    console.log("aux", aux);
     if (index < 5) aux[index + 1] = true;
     setTransitions(aux);
   };

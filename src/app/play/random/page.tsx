@@ -79,8 +79,6 @@ const RandomWord = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  console.log(keyboardColors);
-
   return (
     <Suspense fallback={<Loading />}>
       <main>
